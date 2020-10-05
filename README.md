@@ -11,8 +11,14 @@ def func():
 print(func())
 ```
 
-Answer: 42 will be printed twice.  
-Reason: finally block will run no matter what happens in the try-block. if try block raises a error, encounter a break, continue or return statement then finally block will run.  
+<details>
+    <summary>Show Answer</summary>  
+    42 will be printed twice.  
+</details>
+<details>
+    <summary>Show Reason</summary>  
+    Reason: finally block will run no matter what happens in the try-block. if try block raises a error, encounter a break, continue or return statement then finally block will run.  
+</details>
 
 ---
 
