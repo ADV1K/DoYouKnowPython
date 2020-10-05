@@ -32,16 +32,17 @@ def func():
         return 69
 ```
 
-<details><summary>Show Answer</summary>  
-69
+<details>
+    <summary>Show Answer</summary>  
+    69
 </details>
-
-<details><summary>Show Reason</summary>  
-If a finally clause includes a return statement, the returned value will be the one from the finally clause’s return statement, not the value from the try clause’s return statement
+<details>
+    <summary>Show Reason</summary>  
+    If a finally clause includes a return statement, the returned value will be the one from the finally clause’s return statement, not the value from the try clause’s return statement
 </details>
-
-<details><summary>Reference</summary>  
-https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions  
+<details>
+    <summary>Reference</summary>  
+    https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions  
 </details>
 
 ---
@@ -56,16 +57,17 @@ except:
     print("42 is the answer to life.")
 ```
 
-<details><summary>Show Answer</summary>  
-```42 is the answer to life.``` is printed to the screen
+<details>
+    <summary>Show Answer</summary>  
+    ```42 is the answer to life.``` is printed to the screen
 </details>
-
-<details><summary>Show Reason</summary>  
-The exit() function raises SystemExit Exception which exits the program but since it is placed in a try block this exception is caught and the code in except block runs.  
+<details>
+    <summary>Show Reason</summary>  
+    The exit() function raises SystemExit Exception which exits the program but since it is placed in a try block this exception is caught and the code in except block runs.  
 </details>
-
-<details><summary>Reference</summary>  
-https://docs.python.org/3/library/sys.html#sys.exit  
+<details>
+    <summary>Reference</summary>  
+    https://docs.python.org/3/library/sys.html#sys.exit  
 </details>
 
 ---
