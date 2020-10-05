@@ -11,15 +11,15 @@ def func():
 print(func())
 ```
 
-<details>
-    <summary>Show Answer</summary>  
+<details><summary>Show Answer</summary>  
     
-    42 will be printed twice.  
+42 will be printed twice.  
+
 </details>
-<details>
-    <summary>Show Reason</summary>  
+<details><summary>Show Reason</summary>  
     
-    finally block will run no matter what happens in the try-block. if try block raises a error, encounter a break, continue or return statement then finally block will run.  
+finally block will run no matter what happens in the try-block. if try block raises a error, encounter a break, continue or return statement then finally block will run.  
+
 </details>
 
 ---
@@ -34,20 +34,20 @@ def func():
         return 69
 ```
 
-<details>
-    <summary>Show Answer</summary>  
+<details><summary>Show Answer</summary>  
     
-    69
+69
+
 </details>
-<details>
-    <summary>Show Reason</summary> 
+<details><summary>Show Reason</summary> 
     
-    If a finally clause includes a return statement, the returned value will be the one from the finally clause’s return statement, not the value from the try clause’s return statement
+If a finally clause includes a return statement, the returned value will be the one from the finally clause’s return statement, not the value from the try clause’s return statement
+
 </details>
-<details>
-    <summary>Reference</summary> 
+<details><summary>Reference</summary> 
     
-    https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions  
+https://docs.python.org/3/tutorial/errors.html#defining-clean-up-actions  
+
 </details>
 
 ---
@@ -62,20 +62,20 @@ except:
     print("42 is the answer to life.")
 ```
 
-<details>
-    <summary>Show Answer</summary>  
+<details><summary>Show Answer</summary>  
     
-    ```42 is the answer to life.``` is printed to the screen
+`42 is the answer to life.` is printed to the screen
+
 </details>
-<details>
-    <summary>Show Reason</summary>
+<details><summary>Show Reason</summary>
     
-    The exit() function raises SystemExit Exception which exits the program but since it is placed in a try block this exception is caught and the code in except block runs.  
+The exit() function raises SystemExit Exception which exits the program but since it is placed in a try block this exception is caught and the code in except block runs.  
+
 </details>
-<details>
-    <summary>Reference</summary>  
+<details><summary>Reference</summary>  
     
-    https://docs.python.org/3/library/sys.html#sys.exit  
+https://docs.python.org/3/library/sys.html#sys.exit  
+
 </details>
 
 ---
