@@ -1,5 +1,35 @@
 # Do you think you know Python?
 
+## What Will be the output? Why?
+
+```python
+for i in range(3):
+    print(i)
+else:
+    print(‘Else block!’)
+```
+
+<details><summary>Show Answer</summary>  
+
+```
+0
+1
+2
+Else block!
+```
+
+</details>
+<details><summary>Show Reason</summary>  
+    
+Python loops have an extra feature that is not available in most other programming languages: you can put an else block immediately after a loop’s repeated interior block. The Else block executes when the loop is not terminated by a break block.
+
+</details>
+<details><summary>Reference</summary>
+
+https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+
+</details>
+
 ## What Will happen when you run this code?
 
 ```python
