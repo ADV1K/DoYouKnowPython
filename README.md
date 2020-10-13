@@ -129,9 +129,9 @@ advik
 </details>
 <details><summary>Show Reason</summary>
     
-In the first all the empty strings (empty space between letters) is replaced by "|"
-In the second one empty string is replace by "advik"
-actually a bug which was fixed in the latest version of python. more details here: https://bugs.python.org/issue28029
+In the first all the empty strings (empty space between letters) is replaced by "|"  
+In the second one empty string is replace by "advik"  
+actually a bug which was fixed in the latest version of python. more details here: https://bugs.python.org/issue28029  
 
 </details>
 
