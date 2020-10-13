@@ -109,3 +109,30 @@ https://docs.python.org/3/library/sys.html#sys.exit
 </details>
 
 ---
+
+## What Will Be The Output?
+
+```python
+print('abc'.replace('', '|'))
+print("".replace("", "advik"))
+print("".replace("", "advik", 4))
+```
+
+<details><summary>Show Answer</summary>  
+    
+```
+|a|b|c|
+advik
+
+```
+
+</details>
+<details><summary>Show Reason</summary>
+    
+In the first all the empty strings (empty space between letters) is replaced by "|"
+In the second one empty string is replace by "advik"
+actually a bug which was fixed in the latest version of python. more details here: https://bugs.python.org/issue28029
+
+</details>
+
+---
